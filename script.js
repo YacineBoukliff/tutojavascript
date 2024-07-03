@@ -1,20 +1,15 @@
-const ticket = {
-  nomFilm: "Batman",
+let playlist = ["mauvais reve", "akademy", "geralt"];
 
-  prix: 15,
+console.log(playlist);
 
-  numeroSalle: 5,
-};
-console.log(ticket);
+const totalmorceau = playlist.length;
 
-let nom = "YacineBouklif";
+console.log(totalmorceau);
 
-let affichage =
-  " Bonjour " +
-  nom +
-  " votre film " +
-  ticket.nomFilm +
-  " Est en salle " +
-  ticket.numeroSalle;
+playlist.push("fifa");
 
-console.log(affichage);
+playlist.push("pes");
+
+playlist.pop();
+
+console.log(playlist);
